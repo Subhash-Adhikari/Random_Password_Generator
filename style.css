@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Poppins,sans-serif;
+}
+
+body{
+  background-color: rgb(14, 59, 65);
+  margin-left: 15px;
+  margin-top: 45px;
+  
+h1{
+color: rgb(213, 215, 217);
+font-size: 60px;
+}
+
+hr{
+height: 2px;
+width: 537px;
+margin-top: 5px;
+background-color:  rgb(210, 155, 27);
+border: none;
+}
+
+.gensection{
+  margin-top: 50px;
+}
+
+#password{
+  height: 35px;
+  width: 320px;
+  border-radius: 8px;
+  border-style: none;
+  font-size:20px ;
+  padding-left: 10px;
+}
+
+
+.btngenerate{
+  margin-top: 30px;
+  height: 35px;
+  width: 160px;
+  border-style: none;
+  border-radius: 8px;
+  background-color: rgb(210, 155, 27);
+  font-size: 18px;
+  color:rgb(213, 215, 217) ;
+  text-align: right;
+  padding-right: 40px;
+}
+
+.genbtn{
+
+  margin-bottom: -6px;
+  margin-left: -155px;
+  height: 28px;
+  width: 28px;
+
+}
+
+.btngenerate:hover{
+  background-color: goldenrod;
+  cursor: pointer;
+  color: rgb(19, 22, 22);
+  border: 2px solid goldenrod;
+  transition-duration:1s ;
+}
+
+.image{
+  margin-bottom: -4px;
+  height: 22px;
+  width: 22px;
+  margin-left: -35px;
+  cursor: pointer;
+}
+
+.pswtext{
+  color: rgb(210, 155, 27) ;
+}
